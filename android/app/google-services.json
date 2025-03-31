@@ -1,0 +1,187 @@
+{
+  "project_info": {
+    "project_number": "874567237215",
+    "firebase_url": "https://vashishtha-01-694d7-default-rtdb.firebaseio.com",
+    "project_id": "vashishtha-01-694d7",
+    "storage_bucket": "vashishtha-01-694d7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874567237215:android:49e7c8152e813932fe25ea",
+        "android_client_info": {
+          "package_name": "com.capstoneproject.vashishthateamproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "874567237215-jmjlfc10arpn2u5ff7us54e4s6o0ft80.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.capstoneproject.vashishthateamproject",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "874567237215-2940g4oq9krb2jv34i8glktu8h7c5nj6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAM4XzXCuTuzBc74hrcQstZGrdfvvpwz4g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "874567237215-2940g4oq9krb2jv34i8glktu8h7c5nj6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "874567237215-20mi6134rvs744bcjus86sob29ic3n9h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.vashishtha"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874567237215:android:3dec621356589840fe25ea",
+        "android_client_info": {
+          "package_name": "com.mycompany.vashishtha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "874567237215-o0evcq89o1eefe4ik0s16vr7potou65q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.vashishtha",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "874567237215-2940g4oq9krb2jv34i8glktu8h7c5nj6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAM4XzXCuTuzBc74hrcQstZGrdfvvpwz4g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "874567237215-2940g4oq9krb2jv34i8glktu8h7c5nj6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "874567237215-20mi6134rvs744bcjus86sob29ic3n9h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.vashishtha"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874567237215:android:12b7cd7df00f4b51fe25ea",
+        "android_client_info": {
+          "package_name": "com.mycompany.vashishthadoctor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "874567237215-e97ag2gleknpo51kqnrreop7rql62e61.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.vashishthadoctor",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "874567237215-2940g4oq9krb2jv34i8glktu8h7c5nj6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAM4XzXCuTuzBc74hrcQstZGrdfvvpwz4g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "874567237215-2940g4oq9krb2jv34i8glktu8h7c5nj6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "874567237215-20mi6134rvs744bcjus86sob29ic3n9h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.vashishtha"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874567237215:android:abb50dd74899ab1ffe25ea",
+        "android_client_info": {
+          "package_name": "com.vashishtha.doctorApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "874567237215-8m4v0nuv6j1q4f3f4mdnukf387mjc148.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vashishtha.doctorApp",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "874567237215-2940g4oq9krb2jv34i8glktu8h7c5nj6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAM4XzXCuTuzBc74hrcQstZGrdfvvpwz4g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "874567237215-2940g4oq9krb2jv34i8glktu8h7c5nj6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "874567237215-20mi6134rvs744bcjus86sob29ic3n9h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.vashishtha"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
