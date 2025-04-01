@@ -65,6 +65,11 @@ class AppointmentsRecord extends FirestoreRecord {
   int get docPhone => _docPhone ?? 0;
   bool hasDocPhone() => _docPhone != null;
 
+  // "patientName" field.
+  String? _patientName;
+  String get patientName => _patientName ?? '';
+  bool hasPatientName() => _patientName != null;
+
   void _initializeFields() {
     _userRef = snapshotData['userRef'] as DocumentReference?;
     _docRef = snapshotData['docRef'] as DocumentReference?;
@@ -76,6 +81,7 @@ class AppointmentsRecord extends FirestoreRecord {
     _appointmentDateTime = snapshotData['appointmentDateTime'] as String?;
     _docName = snapshotData['docName'] as String?;
     _docPhone = castToType<int>(snapshotData['docPhone']);
+    _patientName = snapshotData['patientName'] as String?;
   }
 
   static CollectionReference get collection =>
@@ -123,6 +129,7 @@ Map<String, dynamic> createAppointmentsRecordData({
   String? appointmentDateTime,
   String? docName,
   int? docPhone,
+  String? patientName,
 }) {
   final firestoreData = mapToFirestore(
     <String, dynamic>{
@@ -136,6 +143,7 @@ Map<String, dynamic> createAppointmentsRecordData({
       'appointmentDateTime': appointmentDateTime,
       'docName': docName,
       'docPhone': docPhone,
+      'patientName': patientName,
     }.withoutNulls,
   );
 
@@ -157,7 +165,8 @@ class AppointmentsRecordDocumentEquality
         e1?.paymentStatus == e2?.paymentStatus &&
         e1?.appointmentDateTime == e2?.appointmentDateTime &&
         e1?.docName == e2?.docName &&
-        e1?.docPhone == e2?.docPhone;
+        e1?.docPhone == e2?.docPhone &&
+        e1?.patientName == e2?.patientName;
   }
 
   @override
@@ -171,7 +180,8 @@ class AppointmentsRecordDocumentEquality
         e?.paymentStatus,
         e?.appointmentDateTime,
         e?.docName,
-        e?.docPhone
+        e?.docPhone,
+        e?.patientName
       ]);
 
   @override

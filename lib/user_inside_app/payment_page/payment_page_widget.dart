@@ -1000,6 +1000,7 @@ class _PaymentPageWidgetState extends State<PaymentPageWidget> {
                                     ),
                                     docName: paymentPageDoctorsRecord.docName,
                                     docPhone: paymentPageDoctorsRecord.phone,
+                                    patientName: currentUserDisplayName,
                                   ));
                                   _model.bookedAppointment =
                                       AppointmentsRecord.getDocumentFromData(
@@ -1023,6 +1024,7 @@ class _PaymentPageWidgetState extends State<PaymentPageWidget> {
                                                 .docName,
                                             docPhone:
                                                 paymentPageDoctorsRecord.phone,
+                                            patientName: currentUserDisplayName,
                                           ),
                                           appointmentsRecordReference);
                                   await showDialog(

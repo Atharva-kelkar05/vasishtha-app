@@ -757,7 +757,8 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                   Text(
                                                                     'With ${valueOrDefault<String>(
                                                                       listViewAppointmentsRecord
-                                                                          .docName,
+                                                                          .userRef
+                                                                          ?.id,
                                                                       '- -',
                                                                     )}',
                                                                     maxLines: 8,
